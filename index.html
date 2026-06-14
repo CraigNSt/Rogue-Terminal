@@ -61,4 +61,101 @@
 
     section {
       padding: 5rem 5%;
-      max-width: 
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #fff;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .feature-card {
+      background: #111;
+      padding: 2rem;
+      border-radius: 16px;
+      border: 1px solid #222;
+    }
+
+    .screenshot {
+      max-width: 100%;
+      border-radius: 16px;
+      border: 1px solid #333;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      margin: 3rem auto;
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      padding: 3rem;
+      background: #0a0a0a;
+      border-top: 1px solid #222;
+      color: #666;
+    }
+
+    .green { color: #00ff9d; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">ROGUE TERMINAL</h1>
+    <p class="tagline">The terminal + editor + AI assistant you actually want to use</p>
+    
+    <a href="https://github.com/CraigNSt/Rogue-Terminal/releases/latest" class="download-btn">
+      Download Now — Free
+    </a>
+  </header>
+
+  <section>
+    <img src="https://raw.githubusercontent.com/CraigNSt/Rogue-Terminal/main/screenshots/main.png" 
+         alt="Rogue Terminal Screenshot" class="screenshot">
+  </section>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Tabbed Real PTY Terminal</h3>
+        <p>Bash, Zsh, PowerShell, Cmd, and full SSH support with password auth.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Monaco Editor (VS Code engine)</h3>
+        <p>Edit scripts and configs directly. Smart save with elevated privileges.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Built-in AI Assistant</h3>
+        <p>Supports OpenAI, Claude, Grok, Ollama and more — context aware.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Organized Cheat Sheets</h3>
+        <p>Searchable, hierarchical command library at your fingertips.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align:center; background:#111;">
+    <h2>Cross-Platform</h2>
+    <p style="font-size:1.3rem;">Windows • Linux (.deb, .rpm, .AppImage) • macOS</p>
+  </section>
+
+  <footer>
+    <p><strong>Rogue Terminal</strong> — Proprietary software by Craig N. Stanley</p>
+    <p>
+      <a href="https://github.com/CraigNSt/Rogue-Terminal" style="color:#00ff9d; text-decoration:none;">GitHub</a> 
+      • 
+      <a href="https://github.com/CraigNSt/Rogue-Terminal/releases/latest" style="color:#00ff9d; text-decoration:none;">Downloads</a>
+    </p>
+  </footer>
+
+</body>
+</html>
