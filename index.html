@@ -5,24 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rogue Terminal</title>
   <style>
-    body { font-family: system-ui, sans-serif; background: #0f0f0f; color: #fff; text-align: center; padding: 60px 20px; }
-    h1 { font-size: 3rem; margin-bottom: 10px; }
-    p { max-width: 600px; margin: 20px auto; font-size: 1.2rem; }
-    .download { background: #00ff9d; color: black; padding: 15px 30px; font-size: 1.3rem; border-radius: 8px; text-decoration: none; display: inline-block; margin-top: 30px; }
-    .screenshots { margin-top: 60px; }
-  </style>
-</head>
-<body>
-  <h1>Rogue Terminal</h1>
-  <p>Next-gen terminal + code editor with built-in AI assistant</p>
-  
-  <a href="https://github.com/CraigNSt/Rogue-Terminal/releases/latest" class="download">
-    Download Now
-  </a>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+    
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      font-family: 'Inter', system-ui, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
 
-  <div class="screenshots">
-    <h2>Screenshots</h2>
-    <!-- Add your images from the screenshots folder here -->
-  </div>
-</body>
-</html>
+    header {
+      background: linear-gradient(180deg, #1a1a1a, #0a0a0a);
+      padding: 2rem 5%;
+      text-align: center;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 3.2rem;
+      font-weight: 600;
+      color: #00ff9d;
+      margin: 0;
+      text-shadow: 0 0 20px rgba(0, 255, 157, 0.3);
+    }
+
+    .tagline {
+      font-size: 1.4rem;
+      color: #aaa;
+      max-width: 700px;
+      margin: 1rem auto;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: #00ff9d;
+      color: #000;
+      font-weight: 600;
+      padding: 16px 40px;
+      font-size: 1.3rem;
+      border-radius: 12px;
+      text-decoration: none;
+      margin-top: 2rem;
+      transition: all 0.3s;
+      box-shadow: 0 10px 30px rgba(0, 255, 157, 0.2);
+    }
+
+    .download-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 15px 40px rgba(0, 255, 157, 0.3);
+    }
+
+    section {
+      padding: 5rem 5%;
+      max-width: 
