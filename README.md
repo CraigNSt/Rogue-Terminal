@@ -45,7 +45,7 @@ Rogue Terminal combines a real PTY terminal, a full-featured code editor, organi
 
 ## Screenshots
 
-*(Add 2-4 screenshots here later)*
+![Screenshot](https://github.com/CraigNSt/Rogue-Terminal/raw/main/screenshots/rogue-terminal-ai.png)
 
 ## License
 
